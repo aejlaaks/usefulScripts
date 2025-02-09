@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113ddd80-37b2-4663-805e-45ccf7f0d924" name="Changes" comment="" />
+    <list default="true" id="113ddd80-37b2-4663-805e-45ccf7f0d924" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,8 +91,17 @@
       <workItem from="1738212443097" duration="7542000" />
       <workItem from="1738299201565" duration="13190000" />
       <workItem from="1738949960941" duration="2715000" />
-      <workItem from="1739008146124" duration="1783000" />
+      <workItem from="1739008146124" duration="3176000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1739036675585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739036675585</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +111,7 @@
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="17101ee9-21c7-4c93-b104-7b784f6f670a" value="TOOL_WINDOW" />
+        <entry key="d4aff931-7a3d-4724-8115-0831985ab46f" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
@@ -114,8 +126,17 @@
             <State />
           </value>
         </entry>
+        <entry key="d4aff931-7a3d-4724-8115-0831985ab46f">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$removeNonHtmlFiles.coverage" NAME="removeNonHtmlFiles Coverage Results" MODIFIED="1737487630804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
