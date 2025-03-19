@@ -1,3 +1,23 @@
+"""
+Usage: removeDuplicateHeaders.py
+--------------------------------
+This script removes duplicate headers from Markdown files based on similarity comparison.
+
+Features:
+- Recursively processes all Markdown (.md) files in a directory
+- Uses fuzzy matching to identify similar headers
+- Customizable similarity threshold (default 0.85)
+- Normalizes headers for comparison (case insensitive, ignores special characters)
+- Preserves all non-header content
+- Reports changes made to each file
+
+To use:
+1. Run the script: python removeDuplicateHeaders.py
+2. When prompted, enter the path to the directory containing Markdown files
+3. Enter a similarity threshold (0.0-1.0) or press Enter for the default value (0.85)
+4. The script will process all files and report removed duplicate headers
+"""
+
 import os
 import re
 from difflib import SequenceMatcher

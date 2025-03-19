@@ -1,3 +1,25 @@
+"""
+Usage: removeIfKorjattu.py
+-------------------------
+This script removes all files and directories that contain the word 'korjattu' (fixed/corrected)
+in their names from a specified directory tree.
+
+Features:
+- Recursively processes all files and directories
+- Case-insensitive keyword matching
+- Attempts to remove directories (only if empty)
+- Reports all deletions and errors during the process
+- Uses the keyword 'korjattu' by default, but this can be modified in the code
+
+To use:
+1. Run the script: python removeIfKorjattu.py
+2. When prompted, enter the path to the directory to clean up
+3. The script will search for and remove all matching files and directories
+
+Warning: This operation is irreversible. Make sure you understand which files
+will be deleted before running this script.
+"""
+
 import os
 
 def delete_files_and_dirs_with_keyword(base_path, keyword):

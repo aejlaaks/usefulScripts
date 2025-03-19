@@ -1,3 +1,21 @@
+"""
+Usage: renameFolderFiles.py
+--------------------------
+This script renames directories to match the basename of the first file found in each directory.
+
+Features:
+- Recursively processes all subdirectories in a specified path
+- Renames each directory to match the name of the first file it contains (without extension)
+- Skips empty directories and directories with no files
+- Avoids naming conflicts by skipping if target name already exists
+- Reports all renaming operations and skipped directories
+
+To use:
+1. Run the script: python renameFolderFiles.py
+2. When prompted, enter the path to the base directory containing the subdirectories to rename
+3. The script will rename directories and report all changes
+"""
+
 import os
 
 

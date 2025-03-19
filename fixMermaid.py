@@ -1,3 +1,23 @@
+"""
+Usage: fixMermaid.py
+------------------
+This script fixes common syntax errors in Mermaid diagrams within Markdown files
+without using external AI services.
+
+Features:
+- Recursively processes all Markdown (.md) files in a directory and its subdirectories
+- Fixes escaped parentheses by removing unnecessary escape characters (\( → ()
+- Corrects invalid connection syntax (|> → |)
+- Cleans up whitespace around Mermaid code fence markers
+- Works completely offline with no API dependencies
+- Reports each file that is processed and updated
+
+To use:
+1. Run the script: python fixMermaid.py
+2. When prompted, enter the path to the directory containing Markdown files
+3. The script will fix Mermaid syntax issues in all files and report progress
+"""
+
 import os
 import re
 

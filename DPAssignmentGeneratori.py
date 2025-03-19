@@ -1,8 +1,30 @@
+"""
+Usage: DPAssignmentGeneratori.py
+---------------------------------
+This script generates educational tasks and examples on specified topics using the DeepSeek AI API.
+The generated content includes task descriptions, explanations, and examples with GraphViz diagrams.
+
+Features:
+- Generates 20 tasks per topic with detailed explanations
+- Creates examples with Graphviz/DOT diagrams
+- Saves output as Markdown files in a specified directory
+
+Requirements:
+- OpenAI Python package
+- DeepSeek API key
+
+To use:
+1. Set your DeepSeek API key in the DEEPSEEK_API_KEY variable
+2. Modify the 'topics' list in the main() function to include your desired topics
+3. Update the 'base_directory' in main() to your preferred output location
+4. Run the script: python DPAssignmentGeneratori.py
+"""
+
 import os
 from openai import OpenAI
 
 # Aseta DeepSeek API -yhteyden tiedot
-DEEPSEEK_API_KEY = "sk-7c25c5c668724e2db72ecaff22201665"  # Vaihda tämä oikeaan API-avainarvoon
+DEEPSEEK_API_KEY = "YOUR_API_KEY_HERE"  # Replace with your actual API key
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 
 # Luo DeepSeek API -asiakas
@@ -11,7 +33,7 @@ client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)
 
 def generate_tasks_and_examples(topic):
     prompt = (
-         f"Olet tehtävä- ja esimerkkiluoja. Generoi tarkalleen 1 tehtävää ja esimerkkejä liittyen aiheeseen '{topic}'. "
+         f"Olet tehtävä- ja esimerkkiluoja. Generoi tarkalleen 20 tehtävää ja esimerkkejä liittyen aiheeseen '{topic}'. "
         "Tehtävien tulisi kattaa aiheen peruskäsitteet ja edistyneemmät näkökohdat. Korosta erityisesti esimerkkien laajuutta ja laatua siten, että "
         "ne auttavat opiskelijaa ymmärtämään aihetta syvällisesti ja eri näkökulmista. "
         "Jokaiseen tehtävään tulee sisältyä:\n"
@@ -31,7 +53,7 @@ def generate_tasks_and_examples(topic):
     try:
         # Tee API-kutsu
         response = client.chat.completions.create(
-            model="deepseek-reasoner",
+            model="deepseek-chat",
             messages=[
                 {
                     "role": "system",
@@ -77,7 +99,7 @@ def save_tasks_to_file(directory, topic, content):
         os.makedirs(directory)
 
     # Luo tiedoston nimi ja tallennuspolku
-    file_name = sanitize_file_name(topic[:50].strip().replace(" ", "_")) + ".md"
+    file_name = sanitize_file_name(topic[:150].strip().replace(" ", "_")) + ".md"
     file_path = os.path.join(directory, file_name)
 
     try:
@@ -90,8 +112,14 @@ def save_tasks_to_file(directory, topic, content):
 
 def main():
     topics = [
-         "Build a logic for fire detection systen for building with multiple different locations. we also need automatic fire control with water for where the fire is"
-
+       "Ohm's law",
+        "Resistance in electiricity",
+        "Resistor in electiricity",
+        "Capasitor in electiricity",
+        "Diode"
+        "series and parallel connection in circuits"
+        "coil in electricity"
+        "series and parallel connection with resistors and capacitors"
 
     ]
 

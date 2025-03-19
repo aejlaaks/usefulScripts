@@ -1,3 +1,21 @@
+"""
+Usage: AddFileExtensionPDF.py
+----------------------------
+This script adds a .pdf extension to files that don't have any file extension.
+It's useful for fixing files that are meant to be PDFs but are missing their extensions.
+
+Features:
+- Processes all files in a specified directory (non-recursive)
+- Only adds extension to files without an existing extension
+- Leaves files with existing extensions unchanged
+- Reports each file that is renamed
+
+To use:
+1. Run the script: python AddFileExtensionPDF.py
+2. When prompted, enter the path to the directory containing files to process
+3. The script will add .pdf extension to files without extensions and report changes
+"""
+
 import os
 
 def add_pdf_extension_to_files(directory):

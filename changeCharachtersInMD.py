@@ -1,3 +1,21 @@
+"""
+Usage: changeCharachtersInMD.py
+------------------------------
+This script replaces LaTeX-style escaped brackets (\[ \], \( \)) with $$ in Markdown files.
+This is useful for converting LaTeX math notation to a format compatible with Markdown math rendering.
+
+Features:
+- Recursively processes all Markdown (.md) files in a directory
+- Replaces \[ and \] with $$ for block math equations
+- Reports each file that has been updated
+- Preserves all other content in the files
+
+To use:
+1. Run the script: python changeCharachtersInMD.py
+2. When prompted, enter the path to the directory containing Markdown files
+3. The script will process all files and report the changes made
+"""
+
 import os
 
 def replace_brackets_in_file(file_path):

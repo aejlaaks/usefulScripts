@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="113ddd80-37b2-4663-805e-45ccf7f0d924" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/UsefulScripts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixMermaidAzureAi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FixMermaidWithOpenAi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_sequence_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixMermaidWithDeepSeek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/removeDupilcateMermaidTags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/removeSameSentencesByThreshold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/removeWantedText.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replateDOT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddFileExtensionPDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddFileExtensionPDF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckCharacterLengthFilesFolders.py" beforeDir="false" afterPath="$PROJECT_DIR$/CheckCharacterLengthFilesFolders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DPAssignmentGeneratori.py" beforeDir="false" afterPath="$PROJECT_DIR$/DPAssignmentGeneratori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DPAssignmentGeneratoriLOGO.py" beforeDir="false" afterPath="$PROJECT_DIR$/DPAssignmentGeneratoriLOGO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarkdownToWord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changeCharachtersInMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/changeCharachtersInMD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conertMDtoHTMLPDFWord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contertMDtoWORD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixMermaid.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixMermaid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/mergCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/removeDuplicateHeaders.py" beforeDir="false" afterPath="$PROJECT_DIR$/removeDuplicateHeaders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/removeExtraCharactersFilesFolders.py" beforeDir="false" afterPath="$PROJECT_DIR$/removeExtraCharactersFilesFolders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/removeIfKorjattu.py" beforeDir="false" afterPath="$PROJECT_DIR$/removeIfKorjattu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/removeNonHtmlFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/removeNonHtmlFiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renameFolderFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/renameFolderFiles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +49,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aejlaaks"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aejlaaks/usefulScripts.git",
+    "accountId": "7e9994e6-a707-4933-8561-30a3d2c6e25c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -38,26 +76,37 @@
     "Python.CheckCharacterLengthFilesFolders.executor": "Run",
     "Python.DPAssignmentGeneratori.executor": "Run",
     "Python.DPAssignmentGeneratoriLOGO.executor": "Run",
+    "Python.FixMermaidAzureAi.executor": "Run",
+    "Python.FixMermaidWithOpenAi.executor": "Run",
     "Python.MarkdownToWord.executor": "Run",
+    "Python.add_sequence_number.executor": "Run",
     "Python.changeCharachtersInMD.executor": "Run",
     "Python.conertMDtoHTMLPDFWord.executor": "Run",
     "Python.contertMDtoWORD.executor": "Run",
     "Python.fixMermaid.executor": "Run",
+    "Python.fixMermaidWithDeepSeek.executor": "Run",
+    "Python.removeDupilcateMermaidTags.executor": "Run",
     "Python.removeDuplicateHeaders.executor": "Run",
     "Python.removeExtraCharactersFilesFolders.executor": "Run",
     "Python.removeIfKorjattu.executor": "Run",
     "Python.removeNonHtmlFiles.executor": "Run",
+    "Python.removeSameSentencesByThreshold.executor": "Run",
+    "Python.removeWantedText.executor": "Run",
     "Python.renameFolderFiles.executor": "Run",
+    "Python.replateDOT.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Antti/PycharmProjects/PythonProject",
+    "last_opened_file_path": "C:/Users/Antti/PycharmProjects/UsefulScripts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "vcs.log",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,7 +140,18 @@
       <workItem from="1738212443097" duration="7542000" />
       <workItem from="1738299201565" duration="13190000" />
       <workItem from="1738949960941" duration="2715000" />
-      <workItem from="1739008146124" duration="3176000" />
+      <workItem from="1739008146124" duration="27060000" />
+      <workItem from="1739521309317" duration="1251000" />
+      <workItem from="1739552822133" duration="1941000" />
+      <workItem from="1739638662753" duration="660000" />
+      <workItem from="1739644745793" duration="8695000" />
+      <workItem from="1740032569563" duration="26501000" />
+      <workItem from="1740410727793" duration="16066000" />
+      <workItem from="1741200874826" duration="544000" />
+      <workItem from="1741277629579" duration="5108000" />
+      <workItem from="1741700361509" duration="2426000" />
+      <workItem from="1742284164637" duration="12342000" />
+      <workItem from="1742414091584" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -101,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739036675585</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1739081980533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739081980533</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,17 +208,25 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$removeNonHtmlFiles.coverage" NAME="removeNonHtmlFiles Coverage Results" MODIFIED="1737487630804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$removeWantedText.coverage" NAME="removeWantedText Coverage Results" MODIFIED="1741703039143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$conertMDtoHTMLPDFWord.coverage" NAME="conertMDtoHTMLPDFWord Coverage Results" MODIFIED="1738423863181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$removeSameSentencesByThreshold.coverage" NAME="removeSameSentencesByThreshold Coverage Results" MODIFIED="1740421567612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$add_sequence_number.coverage" NAME="add_sequence_number Coverage Results" MODIFIED="1740543589707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$FixMermaidAzureAi.coverage" NAME="FixMermaidAzureAi Coverage Results" MODIFIED="1740214465762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$fixMermaid.coverage" NAME="fixMermaid Coverage Results" MODIFIED="1737140562160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$DPAssignmentGeneratori.coverage" NAME="DPAssignmentGeneratori Coverage Results" MODIFIED="1738357936742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$changeCharachtersInMD.coverage" NAME="changeCharachtersInMD Coverage Results" MODIFIED="1738524425130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$DPAssignmentGeneratori.coverage" NAME="DPAssignmentGeneratori Coverage Results" MODIFIED="1742290572112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$changeCharachtersInMD.coverage" NAME="changeCharachtersInMD Coverage Results" MODIFIED="1742293561272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$removeExtraCharactersFilesFolders.coverage" NAME="removeExtraCharactersFilesFolders Coverage Results" MODIFIED="1737125464714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$removeIfKorjattu.coverage" NAME="removeIfKorjattu Coverage Results" MODIFIED="1737126298947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$removeDuplicateHeaders.coverage" NAME="removeDuplicateHeaders Coverage Results" MODIFIED="1738955793616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$CheckCharacterLengthFilesFolders.coverage" NAME="CheckCharacterLengthFilesFolders Coverage Results" MODIFIED="1738401997891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$renameFolderFiles.coverage" NAME="renameFolderFiles Coverage Results" MODIFIED="1738954354354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$DPAssignmentGeneratoriLOGO.coverage" NAME="DPAssignmentGeneratoriLOGO Coverage Results" MODIFIED="1738354868954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$removeDuplicateHeaders.coverage" NAME="removeDuplicateHeaders Coverage Results" MODIFIED="1742284176235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$CheckCharacterLengthFilesFolders.coverage" NAME="CheckCharacterLengthFilesFolders Coverage Results" MODIFIED="1739303424880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$renameFolderFiles.coverage" NAME="renameFolderFiles Coverage Results" MODIFIED="1741321151765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$removeDupilcateMermaidTags.coverage" NAME="removeDupilcateMermaidTags Coverage Results" MODIFIED="1740291327820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$replateDOT.coverage" NAME="replateDOT Coverage Results" MODIFIED="1739132154826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$fixMermaidWithDeepSeek.coverage" NAME="fixMermaidWithDeepSeek Coverage Results" MODIFIED="1740290541697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$DPAssignmentGeneratoriLOGO.coverage" NAME="DPAssignmentGeneratoriLOGO Coverage Results" MODIFIED="1739115623052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$MarkdownToWord.coverage" NAME="MarkdownToWord Coverage Results" MODIFIED="1737492282988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$FixMermaidWithOpenAi.coverage" NAME="FixMermaidWithOpenAi Coverage Results" MODIFIED="1740214911433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$AddFileExtensionPDF.coverage" NAME="AddFileExtensionPDF Coverage Results" MODIFIED="1737126090445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$contertMDtoWORD.coverage" NAME="contertMDtoWORD Coverage Results" MODIFIED="1737491872540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

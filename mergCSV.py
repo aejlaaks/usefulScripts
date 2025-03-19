@@ -1,3 +1,27 @@
+"""
+Usage: mergCSV.py
+----------------
+This script combines multiple CSV files from a directory into a single CSV file.
+
+Features:
+- Reads all CSV files from a specified input directory
+- Concatenates all data while preserving column headers
+- Preserves the original data without modifying column values
+- Ignores index numbers from the original files
+- Outputs a single consolidated CSV file
+
+Requirements:
+- pandas library
+
+To use:
+1. Run the script: python mergCSV.py
+2. When prompted, enter the path to the directory containing CSV files
+3. The script will create a combined CSV file at the hardcoded output path
+   (/home/antti/MetaGPT/data/cryptocurrency_historical_prices.csv)
+
+Note: To change the output location, modify the 'output_file' variable in the main section.
+"""
+
 import os
 import pandas as pd
 

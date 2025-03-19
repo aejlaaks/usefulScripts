@@ -1,3 +1,21 @@
+"""
+Usage: CheckCharacterLengthFilesFolders.py
+-----------------------------------------
+This script shortens file and directory names to ensure paths don't exceed a maximum length.
+It helps prevent issues with path length limitations in various operating systems.
+
+Features:
+- Recursively processes all files and directories in a specified path
+- Shortens filenames that would cause the full path to exceed 350 characters
+- Preserves file extensions when shortening names
+- Reports each file or directory that was renamed
+
+To use:
+1. Run the script: python CheckCharacterLengthFilesFolders.py
+2. When prompted, enter the path to the directory you want to process
+3. The script will rename files and directories as needed and report all changes
+"""
+
 import os
 
 MAX_PATH_LENGTH = 350

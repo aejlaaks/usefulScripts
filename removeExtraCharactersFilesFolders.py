@@ -1,3 +1,27 @@
+"""
+Usage: removeExtraCharactersFilesFolders.py
+------------------------------------------
+This script sanitizes file and directory names by removing special characters,
+Unicode characters, and limiting path lengths to prevent Windows path length issues.
+
+Features:
+- Recursively processes all files and directories
+- Removes special characters like <>:"/\\|?* from names
+- Removes all non-ASCII Unicode characters 
+- Limits file/directory names to 100 characters
+- Shortens paths that would exceed the Windows 255 character limit
+- Avoids naming conflicts during renaming
+- Reports all changes made
+
+To use:
+1. Run the script: python removeExtraCharactersFilesFolders.py
+2. When prompted, enter the path to the directory you want to process
+3. The script will rename all files and directories according to the rules
+
+Note: This is particularly useful for fixing compatibility issues with files
+that have been created on non-Windows systems or contain problematic characters.
+"""
+
 import os
 import re
 
